@@ -1,0 +1,123 @@
+/* pages/Add-patient/index.wxss */
+
+.main {
+    padding-bottom: 100rpx;
+}
+
+/* 患者的基本信息 */
+.subInfo {
+    background-color: #fff;
+}
+
+.essential_title,
+.shequ_title,
+.group_title {
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+    padding: 22rpx 30rpx;
+    background-color: #f0f3f5;
+    border-bottom: 1rpx solid #D0D0D0;
+}
+
+.subInfoItem {
+    display: flex;
+    padding: 28rpx;
+    border-bottom: 1rpx solid #D0D0D0;
+}
+
+.tag {
+    flex: 1;
+    padding-left: 32rpx;
+    font-size: 34rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(25, 29, 33, 1);
+}
+
+.ipt {
+    flex: 3
+}
+
+.placeholder {
+    font-size: 34rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+}
+
+/* 单选 */
+radio .wx-radio-input.wx-radio-input-checked::before {
+    border-radius: 50%;
+    width: 70rpx;
+    height: 70rpx;
+    line-height: 65rpx;
+    text-align: center;
+    font-size: 26rpx;
+    /* 对勾大小 26rpx */
+    color: #fff;
+    /* 对勾颜色 */
+    background: #2facff;
+    border-color: #2facff;
+}
+
+
+/* 社区选择 */
+.shequ_content {
+    padding-left: 31rpx;
+}
+
+.shequ-item,
+.group-item {
+    padding: 27rpx 0;
+    border-bottom: 1rpx solid #D0D0D0;
+}
+
+/* 病例分组 */
+.group_conten {
+    padding-left: 31rpx;
+    border-bottom: 1rpx solid #D0D0D0;
+    border-top: 1rpx solid #D0D0D0;
+}
+
+.btn {
+    position: fixed;
+    bottom: 0;
+    padding: 10rpx 25rpx;
+    background-color: #fff;
+}
+
+.btn button {
+    width: 695rpx;
+    height: 80rpx;
+    background: rgba(0, 195, 209, 1);
+    border-radius: 6rpx;
+    color: #fff;
+}
+
+/* 复选框的样式 */
+checkbox .wx-checkbox-input{
+    border-radius: 50%;/* 圆角 */
+    width: 45rpx; /* 背景的宽 */
+    height:45rpx; /* 背景的高 */
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+    border: none;
+
+ }
+ /* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+    border-radius: 50%;
+    width: 70rpx;
+    height: 70rpx;
+    line-height: 65rpx;
+    text-align: center;
+    font-size: 26rpx;
+    /* 对勾大小 26rpx */
+    color: #fff;
+    /* 对勾颜色 */
+    background: #2facff;
+    border-color: #2facff;
+ }

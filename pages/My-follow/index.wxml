@@ -1,0 +1,23 @@
+<!--pages/My-follow/index.wxml-->
+<!-- 搜索 -->
+<view class='search'>
+  <view class='search_input'>
+    <image src='../../static/search.png'></image>
+    <input placeholder="搜索患者关键词" placeholder-class='input_o'></input>
+  </view>
+</view>
+<!-- 主体内容-->
+<view class="mian">
+  <view class="surface-item">
+    <text>高血压患者随访服务记录表</text>
+    <view class='img'>
+      <image src="../../static/arrow.png" />
+    </view>
+  </view>
+  <view class="surface-item">
+    <text>高血压患者随访服务记录表</text>
+    <view class='img'>
+      <image src="../../static/arrow.png" />
+    </view>
+  </view>
+</view>

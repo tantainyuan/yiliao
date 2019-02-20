@@ -1,0 +1,187 @@
+<!--pages/Patient-details/index.wxml-->
+<!-- 头部导航-->
+<view class='nav'>
+    <view class="nav_name {{currentTab==0 ? 'active' : ''}}" data-current="0" bindtap="swichNav">
+        患者信息
+    </view>
+     <view class="nav_name {{currentTab==1 ? 'active' : ''}}" data-current="1" bindtap="swichNav">
+        随访信息
+    </view> 
+    <view class="nav_name {{currentTab==2 ? 'active' : ''}}" data-current="2" bindtap="swichNav">
+        提醒
+    </view>
+</view>
+<!--主体-->
+
+<swiper class="swiper" current="{{currentTab}}" duration="200" >
+
+
+<swiper-item class='mian'>
+     <!-- 患者信息开始-->
+        <view class='information'>
+            <view class='information_n'>
+            
+                    <view class='name'>
+                        张之洞
+                    </view>
+                    <view class='arr'>
+                        <view class="centent1">
+                                天河东路胡广社区
+                        </view>
+                        <view class='centent2'> 
+                                男性
+                        </view>
+                        <view class='centent3'>
+                                76岁
+                        </view>
+                    </view>
+               
+            </view>
+            <view class='information_n'>
+                
+            </view>
+            <view class='information_n'>
+                
+            </view>
+        </view>
+     <!-- 患者信息结束-->
+</swiper-item>
+     <!--患者随访-->
+    
+<swiper-item class='shuifang'>
+    <!-- 时间选择-->
+        <view class='time'>
+            <view class='time-item'>
+                <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+                    <view class="picker">
+                {{date}}
+                    </view>
+                </picker>
+            </view>
+            <view class='xian'>
+                <view>
+                    
+                </view>
+            </view>
+            <view class='time-item'>
+                <picker mode="date" value="{{date}}" start="2015-09-01" end="2019-09-01" bindchange="bindDateChange">
+                    <view class="picker">
+                    {{date}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+
+      <!--记录表-->
+        <view class='Record'>
+            <view class='Record_l'>
+                <view class='Record_l_top'>
+                    高血压患者随访记录表
+                </view>
+                <view class='Record_l_bottom'>
+                    <image src="../../static/time.png" />
+                    <view class='time-data'>
+                        2019/1/1 10:24
+                    </view>
+                    <view class="Doctor">
+                        何医生
+                    </view>
+                </view>
+            </view>
+            <view class='Record_r'>
+                <image src="../../static/arrow.png" />
+            </view>
+        </view>
+         <view class='Record'>
+            <view class='Record_l'>
+                <view class='Record_l_top'>
+                    高血压患者随访记录表
+                </view>
+                <view class='Record_l_bottom'>
+                    <image src="../../static/time.png" />
+                    <view class='time-data'>
+                        2019/1/1 10:24
+                    </view>
+                    <view class="Doctor">
+                        何医生
+                    </view>
+                </view>
+            </view>
+            <view class='Record_r'>
+                <image src="../../static/arrow.png" />
+            </view>
+        </view>
+        
+</swiper-item>
+<!-- 提醒-->
+
+<swiper-item>
+   <view>
+        <!-- 使用中的提醒开始-->
+        <view class='use-remind'>
+            <view class='use-title'>
+                使用中的提醒
+            </view>
+            <view class='use-content'>
+                <view class='txt'>
+                    高血压患者异常提醒
+                    <image src="../../static/info.png" />
+                </view>
+                <view class='del'>
+                    删除
+                </view>
+            </view>
+            <view class='use-content'>
+                 <view class='txt'>
+                    高血压患者服药提醒
+                    <image src="../../static/info.png" />
+                </view>
+                <view class='del'>
+                    删除
+                </view>
+            </view>
+            <view class='use-content'>
+                 <view class='txt'>
+                    高血压患者服药提醒
+                    <image src="../../static/info.png" />
+                </view>
+                <view class='del'>
+                    删除
+                </view>
+            </view>
+            
+        </view>
+    <!-- 使用中的提醒结束-->
+    <!-- 历史提醒记录开始-->
+        <view class='old-remind'>
+            <view class='old-title'>
+                历史提醒记录
+            </view>
+            <view class='old-content'>
+                <view class='old-content_l'>
+                    <view class='old-content_l_top'>
+                        高血压患者异常提醒
+                    </view>
+                    <view class='old-content_l_bottom'>
+                        提醒时间:2019/01/01 10:24
+                    </view>
+                </view>
+                <view class='old-content_r'>
+                    <image src="../../static/info.png" />
+                </view>
+            </view>
+            
+        </view>
+
+    <!-- 历史提醒记录结束-->
+   </view>
+
+   <!--添加提醒按钮-->
+   
+        <view class='btn'>
+             <button>添加提醒</button>
+        </view>
+</swiper-item>
+
+</swiper>
+

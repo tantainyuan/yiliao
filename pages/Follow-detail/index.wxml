@@ -1,0 +1,73 @@
+<!--pages/Follow-detail/index.wxml-->
+
+<!-- 主体-->
+<view class='main'>
+  <!---标题-->
+  <view class='main-title'>
+    <view class='title-top'>
+      高血压患者随访服务记录表
+    </view>
+    <view class='title-bottom'>
+      <view class='title-bottom_l'>
+        随访医生：何医生
+      </view>
+      <view class='title-bottom_r'>
+        随访时间：2019/01/01 10:24
+      </view>
+    </view>
+  </view>
+  <!-- 患者信息-->
+  <view class='information'>
+    <view class='name  information_c'>
+      <text class='text-l'>患者姓名:  </text>
+      <text class='text-r'>徐达</text>
+    </view>
+    <view class='age information_c'>
+      <text class='text-l'>年         龄:    </text>
+      <text class='text-r'>24</text>
+    </view>
+    <view class='gender information_c'>
+      <text class='text-l'>性         别: </text>
+      <text class='text-r'> 男 </text>
+    </view>
+    <view class='certificates information_c'>
+      <text class='text-l'>证件号码:   </text>
+      <text class='text-r'>521489563021148 </text>
+    </view>
+    <view class='community information_c'>
+      <text class='text-l'>社         区:     </text>
+      <text class='text-r'>天河鸳鸯小区 </text>
+    </view>
+    <view class='mob information_c'>
+      <text class='text-l'>联系方式:    </text>
+      <text class='text-r'>19654852312 </text>
+    </view>
+    <view class='add information_c'>
+      <text class='text-l'>地         址:  </text>
+      <text class='text-r'>广东省广州市天河区天河东路111号</text>
+    </view>
+    <view class='grouping information_c'>
+      <text class='text-l'>病症分组:</text>
+      <text class='text-r'>  高血压、糖尿病</text>
+    </view>
+  </view>
+
+  <!-- 症状-->
+  <view class='symptom'>
+    <view class='symptom_title'>
+      近期症状:
+    </view>
+    <view class='symptom_content'>
+      一大早起来发现被窝很烫 全身都很热 起来的时候头有点晕 摸了额头和脸 有点热
+    </view>
+  </view>
+  <!--心理状态-->
+  <view class='psychology'>
+    <view class='psychology_title'>
+      心理状态:
+    </view>
+    <view class='psychology_content'>
+      良好
+    </view>
+  </view>
+</view>

@@ -1,0 +1,88 @@
+/* pages/Follow-record/index.wxss */
+
+/* 时间选择开始 */
+.main {
+    background-color: #f0f0f0;
+    height: 100%;
+}
+.time {
+    display: flex;
+    justify-content: space-around;
+    height: 82rpx;
+    line-height: 82rpx;
+    color: #0295D2;
+    border-bottom: 1rpx solid #D0D0D0;
+    margin-bottom: 14rpx;
+    background-color: #fff;
+
+}
+
+.time .xian {
+    text-align: center;
+    line-height: 82rpx;
+    margin-top: 40rpx;
+}
+
+.time .xian view {
+    width: 57rpx;
+    height: 2rpx;
+    background: rgba(208, 208, 208, 1);
+}
+/* 时间选择结束 */
+
+/* 记录表 */
+.Record {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24rpx;
+    background: rgba(255, 255, 255, 1);
+}
+
+.Record_l {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Record_l_top {
+    flex: 1;
+    font-size: 32rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(25, 29, 33, 1);
+    padding-top: 41rpx;
+    padding-bottom: 31rpx;
+
+}
+
+.Record_l_bottom {
+    flex: 1;
+    padding-bottom: 49rpx;
+    display: flex;
+    font-size: 26rpx;
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    color: rgba(153, 155, 161, 1);
+}
+
+.Record_l_bottom image {
+    margin-top: 3rpx;
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.Record_r {
+    flex: 1;
+    text-align: right;
+    padding-top: 73rpx;
+
+}
+
+.Record_r image {
+    width: 15rpx;
+    height: 24rpx;
+}
+
+

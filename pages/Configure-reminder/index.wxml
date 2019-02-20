@@ -1,0 +1,29 @@
+<!--pages/Configure-reminder/index.wxml-->
+<view class='main'>
+  <view class='main-title'>
+    选择提醒类型
+  </view>
+  <view class='main-content'>
+    <navigator url="../Configuration-exception/index" redirect hover-class="className">
+
+      <view class='type-item'>
+        <text>异常提醒</text>
+        <image src="../../static/arrow.png" />
+      </view>
+    </navigator>
+    <navigator url="../Configuration-medication/index" redirect hover-class="className">
+
+      <view class='type-item'>
+        <text>服药提醒</text>
+        <image src="../../static/arrow.png" />
+      </view>
+    </navigator>
+    <navigator url="../follow-alter/index" redirect hover-class="className">
+
+      <view class='type-item'>
+        <text>随访提醒</text>
+        <image src="../../static/arrow.png" />
+      </view>
+    </navigator>
+  </view>
+</view>

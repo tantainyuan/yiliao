@@ -1,0 +1,21 @@
+<!--pages/login/index.wxml-->
+<view class='login'>
+  <view class='logo'>
+    <image src='../../static/logo.png'></image>
+  </view>
+
+  <view class="section">
+    <view class='username'>
+      <text>用户名</text>
+      <input placeholder="请输入用户名" placeholder-class="hoder" />
+    </view>
+    <view class='password'>
+      <text>密码</text>
+      <input placeholder="请输入密码" password='true' placeholder-class="hoder" />
+    </view>
+
+  </view>
+  <button class='submit'>
+    登录
+  </button>
+</view>

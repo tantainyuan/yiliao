@@ -1,0 +1,13 @@
+<!--pages/Bracelet/index.wxml-->
+<view class='main'>
+  <view class='main-title'>
+    绑定手环设备
+  </view>
+  <view class='ipt'>
+    <text class='tag'>手环码</text>
+    <input type='text' class='txt' value='' placeholder="请填写包装上的24位手环码" placeholder-class="placehoder"></input>
+  </view>
+  <view class="btn">
+    <button>完成</button>
+  </view>
+</view>

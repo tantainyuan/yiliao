@@ -1,0 +1,26 @@
+<!--pages/Change-password/index.wxml-->
+
+  <view class="section">
+   
+    <view class='old-password '>
+      <text class="title">原密码</text>
+      <input placeholder="输入原始密码" password='true' placeholder-class="hoder" />
+    </view>
+    <view class='new-password'>
+      <text class="title">新密码</text>
+      <input placeholder="输入新密码8-16位字母、数字、符号" password='true' placeholder-class="hoder" />
+    </view>
+    <view class='new-password1'>
+      <text class="title">新密码</text>
+      <input placeholder="重复输入确认密码" password='true' placeholder-class="hoder" />
+    </view>
+
+  </view>
+  <view class="tips">
+      <image src="../../static/tip.png" />
+      <text > 密码修改成功</text>
+  </view>
+
+  <view class='btn'>
+    <button>确认修改</button>
+  </view>

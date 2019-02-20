@@ -1,0 +1,221 @@
+/* pages/Fill-follow/index.wxss */
+.main {
+    background-color: #f0f0f0;
+    padding-bottom: 100rpx;
+}
+
+/* 患者个人信息开始 */
+.information {
+    padding: 0 25rpx;
+    display: flex;
+    font-size: 26rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(153, 155, 161, 1);
+    border-bottom: 1rpx solid #d0d0d0;
+}
+
+.information-l {
+    flex: 3;
+}
+
+.information-r {
+    flex: 1;
+    line-height: 205rpx;
+    text-align: right;
+}
+
+.information-l .name {
+    padding-top: 41rpx;
+    font-size: 32rpx;
+    font-weight: 500;
+    color: rgba(25, 29, 33, 1);
+}
+
+.information-l .forma {
+    padding: 27rpx 0;
+    display: flex;
+
+}
+
+.information .phone {
+    padding-bottom: 29rpx;
+}
+
+.forma .forma-item:nth-child(1) {
+    flex: 2
+}
+
+.forma .forma-item:nth-child(2),
+.forma .forma-item:nth-child(3) {
+    flex: 1;
+    text-align: center;
+    border-left: 1rpx solid #d0d0d0;
+}
+
+/* 患者个人信息结束 */
+
+.main-title {
+    padding: 16rpx 30rpx;
+}
+
+.main-title text {
+    border-left: 4rpx solid #0295D2;
+    padding-left: 10rpx;
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(2, 149, 210, 1);
+    height: 188rpx;
+}
+
+/* 病症选择 */
+.Choice {
+    padding: 26rpx 0rpx 26rpx 31rpx;
+    display: flex;
+    font-size: 34rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+    background-color: #fff;
+    border-top: 1rpx solid #d0d0d0;
+    border-bottom: 1rpx solid #d0d0d0;
+}
+
+.Choice-item:nth-child(1) {
+    color: #000000;
+    flex: 1;
+}
+
+.Choice-item:nth-child(2) {
+    flex: 3
+}
+
+.txt {
+    background-color: #fff;
+    border-bottom: 1rpx solid #d0d0d0;
+}
+
+/* 体征 */
+.sign {
+    background: #fff;
+    font-size: 34rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+    margin-bottom: 54rpx;
+}
+
+.sign-item {
+    display: flex;
+    padding: 28rpx 31rpx;
+    justify-content: space-between;
+    border-bottom: 1rpx solid #d0d0d0;
+}
+
+.weith,
+.systolic,
+.motion {
+    color: #000000;
+}
+
+.company,
+.company1 {
+    text-align: center;
+    border-left: 1rpx solid #d0d0d0;
+    padding-left: 30rpx;
+}
+
+/* 运动 */
+
+.sign-item-l {
+    flex: 1;
+    display: flex;
+    border-right: 1rpx solid #d0d0d0;
+}
+
+.sign-item-l input {
+    width: 170rpx;
+}
+
+.sign-item-r input {
+    width: 170rpx;
+}
+
+.sign-item-r {
+    flex: 1;
+    display: flex;
+}
+
+/* 药品名称 */
+.drugs,
+.ues {
+    padding: 28rpx 0rpx 28rpx 32rpx;
+    font-size: 34rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1rpx solid #d0d0d0;
+}
+
+.drugs text,
+.yf {
+    color: #000000;
+}
+
+.ues-l {
+    border-right: 1rpx solid #d0d0d0;
+}
+
+.ues-r {
+    padding-left: 10rpx;
+}
+
+.ues-l,
+.ues-r {
+    display: flex
+}
+
+.ues-l input,
+.ues-r input {
+    width: 151rpx;
+}
+
+/* 新增用药 */
+.add-use {
+    padding: 28rpx 30rpx;
+    background: #fff;
+    font-size: 32rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+
+.add-use image {
+    width: 36rpx;
+    height: 36rpx;
+    margin-right: 10rpx;
+}
+
+/* 按钮 */
+
+.btn {
+    height: 100rpx;
+    background: rgba(255, 255, 255, 1); 
+    position: fixed;
+    bottom: 0;
+    padding-left: 25rpx;
+    z-index: 999;
+}
+
+
+.btn button {
+    width: 695rpx;
+    height: 80rpx;
+    background: rgba(0, 195, 209, 1);
+    border-radius: 6rpx;
+    margin-top: 10rpx;
+    color: #fff;
+}

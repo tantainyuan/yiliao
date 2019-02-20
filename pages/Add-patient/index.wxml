@@ -1,0 +1,77 @@
+<!--pages/Add-patient/index.wxml-->
+<view class='main'>
+  <!-- 基本信息-->
+  <view class='essential '>
+    <view class='essential_title'>
+      录入患者的基本信息
+    </view>
+    <form bindsubmit='formSubmit' class="from">
+      <view class="subInfo">
+        <view class="subInfoItem ">
+          <text class="tag ">姓名</text>
+          <input class='ipt' name='name' value='' placeholder='请输入真实姓名' placeholder-class='placeholder'></input>
+        </view>
+        <view class="subInfoItem ">
+          <text class="tag">证件号</text>
+          <input class='ipt' name='contactphone' value='' placeholder='请输入真实姓名' placeholder-class='placeholder'></input>
+        </view>
+        <view class="subInfoItem ">
+          <text class="tag">性别</text>
+          <radio-group class="ipt">
+            <radio name='gende' value="男" checked="true" />男
+            <radio name='gende' value="女" />女
+          </radio-group>
+
+        </view>
+        <view class="subInfoItem ">
+          <text class="tag">年龄</text>
+          <input class='ipt' name='contactphone' value='' placeholder='输入患者年龄' placeholder-class='placeholder'></input>
+        </view>
+        <view class="subInfoItem ">
+          <text class="tag">联系方式</text>
+          <input class='ipt' name='contactphone' value='' placeholder='输入患者联系方式' placeholder-class='placeholder'></input>
+        </view>
+
+      </view>
+    </form>
+
+  </view>
+  <!-- 所在社区-->
+  <view class='shequ'>
+    <view class='shequ_title'>
+      选择患者所在社区
+    </view>
+    <view class='shequ_content'>
+      <view class='shequ-item'>
+        天河东社区
+      </view>
+      <view class='shequ-item'>
+        原阳社区
+      </view>
+      <view class='shequ-item'>
+        城楼口社区
+      </view>
+    </view>
+  </view>
+
+  <!-- 病例分组-->
+  <view class='group'>
+    <view class='group_title'>
+      选择病症分组
+    </view>
+    <view class='group_conten'>
+      <view class='group-item'>
+        <checkbox value="高血压" checked="true" />高血压
+      </view>
+      <view class='group-item'>
+        <checkbox value="糖尿病" checked="" />糖尿病
+      </view>
+      <view class='group-item'>
+        <checkbox value="不宁腿综合症" checked="" />不宁腿综合症
+      </view>
+    </view>
+  </view>
+  <view class='btn'>
+    <button>下一步 绑定手环</button>
+  </view>
+</view>

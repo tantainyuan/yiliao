@@ -1,0 +1,139 @@
+<!--index.wxml-->
+<!-- 搜索 -->
+<view class="search">
+  <navigator hover-class="none" class="_navigator data-v-954c52ea">
+    <view class="search-input">
+      <icon type="search" size="15" color="#999" class="_icon data-v-954c52ea"></icon>
+      搜索患者、随访记录、提醒记录
+    </view>
+  </navigator>
+</view>
+<!-- 主体内容 -->
+<view class='main_content'>
+  <!-- 数据展示块 -->
+  <view class='data-shuju'>
+    <view class='bg'></view>
+    <view class='statistics'>
+      <view class='statistics_content'>
+        <view class='statistics_top'>
+          <view class='img'>
+            <image src='../../static/statisc.png'></image>
+          </view>
+          <view class='txt'>数据统计</view>
+
+        </view>
+        <view class='statistics_center'>
+          <view class='statistics_center_f'>
+            <view class='people_number'>监控人数</view>
+            <text class='num'>364</text>
+          </view>
+          <view class='statistics_center_r'>
+            <view class='abnormal'>未处理异常</view>
+            <text class='num'>24</text>
+          </view>
+        </view>
+        <view class='statistics_bottom'>
+          <view class='text'>查看更多</view>
+          <view class='img'>
+            <image src='../../static/more1.png'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 卡片 -->
+  <view class='card'>
+    <navigator url='../statistics/index'>
+
+      <view class='manage'>
+        <view class='manage_l'>
+          <view class='title'>患者管理</view>
+          <view class='xingxi'>查看删除患者信息</view>
+        </view>
+        <view class='manage_r'>
+          <image src='../../static/manage.png'></image>
+        </view>
+      </view>
+
+    </navigator>
+    <view class='manage'>
+      <view class='manage_l'>
+        <view class='title'>患者管理</view>
+        <view class='xingxi'>查看删除患者信息</view>
+      </view>
+      <view class='manage_r'>
+        <image src='../../static/manage.png'></image>
+      </view>
+    </view>
+    <view class='manage'>
+      <view class='manage_l'>
+        <view class='title'>患者管理</view>
+        <view class='xingxi'>查看删除患者信息</view>
+      </view>
+      <view class='manage_r'>
+        <image src='../../static/manage.png'></image>
+      </view>
+    </view>
+    <view class='manage'>
+      <view class='manage_l'>
+        <view class='title'>患者管理</view>
+        <view class='xingxi'>查看删除患者信息</view>
+      </view>
+      <view class='manage_r'>
+        <image src='../../static/manage.png'></image>
+      </view>
+    </view>
+
+  </view>
+
+  <!-- 随访 -->
+  <view class='suifang'>
+    <view class='follow'>
+      <view class='follow_top'>
+        <image src='../../static/followup.png'></image>
+      </view>
+      <view class='follow_center'>随访记录</view>
+      <view class='follow_bottom'>查看所有历史随访</view>
+    </view>
+    <view class='follow'>
+      <view class='follow_top'>
+        <image src='../../static/followup.png'></image>
+      </view>
+      <view class='follow_center'>随访记录</view>
+      <view class='follow_bottom'>查看所有历史随访</view>
+    </view>
+    <navigator url="../My-follow/index">
+       <view class='follow'>
+      <view class='follow_top'>
+        <image src='../../static/followup_form.png'></image>
+      </view>
+      <view class='follow_center'>随访表单</view>
+      <view class='follow_bottom'>查看随访表单内容</view>
+    </view>
+    </navigator>
+  </view>
+
+  <!-- 留言手环 -->
+
+  <view class='main'>
+    <view class='main_content1'>
+     <navigator url="../Patient-message/index">
+        <view class='message'>
+        <view class='message_l'>
+          <image src='../../static/message.png'></image>
+          <text>患者留言</text>
+        </view>
+        <view class='message_r'>
+          <text>1条新留言</text>
+          <image src='../../static/arrow.png'></image>
+        </view>
+
+      </view>
+     </navigator>
+      <view class='bracelet'>
+        <image src='../../static/contact.png'></image>
+        <text>读取手环</text>
+      </view>
+    </view>
+  </view>
+</view>

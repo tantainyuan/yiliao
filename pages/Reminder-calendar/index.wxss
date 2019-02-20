@@ -1,0 +1,33 @@
+.weui-cell-third{
+	background: #fff;
+  }
+  .weui-cell-list{
+	background: #fff;
+	margin-left: 24px;
+
+  }
+  .weui-cell-line{
+  /* width: 100px; */
+  margin-left: 5px;
+	border-left: 1px solid #ddd;
+	height: 100px; 
+	background: #fff;
+  padding-left: 20px
+  
+
+  }
+  .weui-cell-circle{
+	border-radius: 5px;
+	width: 10px;
+	height: 10px;
+	background-color: #D0D0D0;
+  }
+  .weui-cell-time{
+	/* width: 50px; */
+	float: left;
+	font-size:14px;
+	padding-left: 15px;
+	width: 72px;
+   
+  }
+  

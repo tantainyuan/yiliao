@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/index",
+    "pages/statistics/index",
+    "pages/Patient/index",
+    "pages/Patient-details/index",
+    "pages/Follow-detail/index",
+    "pages/Add-patient/index",
+    "pages/Bracelet/index",
+    "pages/Reminder-record/index",
+    "pages/Configure-reminder/index",
+    "pages/Configuration-exception/index",
+    "pages/Configuration-medication/index",
+    "pages/Reminder-calendar/index",
+    "pages/follow-alter/index",
+    "pages/Target-selection/index",
+    "pages/Follow-record/index",
+    "pages/New-follow/index",
+    "pages/Selective-follow/index",
+    "pages/Fill-follow/index",
+    "pages/More/index",
+    "pages/Patient-message/index",
+    "pages/Change-password/index",
+    "pages/My-follow/index",
+    "pages/Leaving/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00bee2",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  },
+  "plugins": {
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+    }
+  },
+  "tabBar":{
+    "color": "#999BA1",
+    "selectedColor": "#191D21",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"./static/home_d.png",
+        "selectedIconPath":"./static/home_f.png"
+      },
+      {
+        "pagePath": "pages/More/index",
+        "text": "更多",
+        "iconPath": "./static/my_d.png",
+        "selectedIconPath": "./static/my_f.png"
+      }]
+    }
+}

@@ -1,0 +1,60 @@
+/* pages/Change-password/index.wxss */
+
+.section {
+    justify-content: space-between;
+    margin-left: 48rpx;
+    margin-top: 59rpx;
+
+}
+
+.title {
+    padding: 21rpx 0;
+    font-size: 30rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(25, 29, 33, 1);
+}
+
+input {
+    width: 654rpx;
+    height: 80rpx;
+    background: rgba(246, 247, 248, 1);
+    border-radius: 6rpx;
+    background-color: #fff;
+}
+
+.hoder {
+    font-size: 32rpx;
+
+    color: rgba(153, 155, 161, 1);
+}
+
+/* 成功提示 */
+.tips {
+    height: 32rpx;
+    font-size: 34rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(4, 194, 219, 1);
+    margin-left: 48rpx;
+}
+
+.tips image {
+    width: 40rpx;
+    height: 29rpx;
+}
+/* 按钮 */
+.btn {
+
+    padding: 10rpx 25rpx;
+    background-color: #fff;
+}
+
+.btn button {
+    width: 695rpx;
+    height: 80rpx;
+    background: rgba(0, 195, 209, 1);
+    border-radius: 6rpx;
+    color: #fff;
+    line-height: 80rpx;
+}

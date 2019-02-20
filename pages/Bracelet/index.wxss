@@ -1,0 +1,61 @@
+/* pages/Bracelet/index.wxss */
+
+.main {
+    background-color: #f0f3f5;
+    height: 100%;
+}
+
+.main-title {
+    padding: 21rpx 29rpx;
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+}
+
+.ipt {
+    height: 88rpx;
+    background: rgba(255, 255, 255, 1);
+    border-bottom: 1rpx solid #D0D0D0;
+    border-top: 1rpx solid #D0D0D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag {
+    flex: 1;
+    padding-left: 32rpx;
+    font-size: 34rpx;
+    font-weight: 500;
+    color: rgba(25, 29, 33, 1);
+}
+
+.txt {
+    flex: 3
+}
+
+.placehoder {
+    font-size: 34rpx;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+}
+
+/* 按钮 */
+
+.btn {
+    height: 100rpx;
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    bottom: 0;
+    padding-left: 25rpx;
+}
+
+.btn button {
+    width: 695rpx;
+    height: 80rpx;
+    background: rgba(0, 195, 209, 1);
+    border-radius: 6rpx;
+    margin-top: 10rpx;
+    color: #fff;
+}

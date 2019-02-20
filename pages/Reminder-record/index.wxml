@@ -1,0 +1,116 @@
+<!--pages/Reminder-record/index.wxml-->
+
+<!--顶部导航栏-->
+<view class="swiper-tab">
+  <view class="tab-item {{currentTab==0 ? 'active' : ''}}" data-current="0" bindtap="swichNav">历史提醒</view>
+  <view class="tab-item {{currentTab==1 ? 'active' : ''}}" data-current="1" bindtap="swichNav">使用中提醒</view>
+</view>
+<!--内容主体-->
+<swiper class="swiper" current="{{currentTab}}">
+  <!--历史提醒记录-->
+  <swiper-item class='old-reminder'>
+    <view class='mian'>
+      <view class="remider-title">
+        <view class='dian'></view>
+        <text>今天</text>
+      </view>
+      <view class='old-content' bindtap="longTap">
+        <view class='old-content_l'>
+          <view class='old-content_l_top'>
+            高血压患者异常提醒
+          </view>
+          <view class='old-content_l_bottom'>
+            提醒时间:2019/01/01 10:24
+          </view>
+        </view>
+        <view class='old-content_r'>
+          <image src="../../static/info.png" />
+        </view>
+      </view>
+    </view>
+    <view class='mian'>
+      <view class="remider-title">
+        <view class='dian'></view>
+        <text>今天</text>
+      </view>
+      <view class='old-content' bindtap="longTap">
+        <view class='old-content_l'>
+          <view class='old-content_l_top'>
+            高血压患者异常提醒
+          </view>
+          <view class='old-content_l_bottom'>
+            提醒时间:2019/01/01 10:24
+          </view>
+        </view>
+        <view class='old-content_r'>
+          <image src="../../static/info.png" />
+        </view>
+      </view>
+    </view>
+
+  </swiper-item>
+
+  <!-- 使用中提醒-->
+  <swiper-item class='ues-reminder'>
+    <view class="tix">
+      <view class='use-content'>
+        <view class='txt'>
+          高血压患者异常提醒
+          <image src="../../static/info.png" />
+        </view>
+        <view class='del'>
+          停止并删除
+        </view>
+      </view>
+      <view class='use-content'>
+        <view class='txt'>
+          高血压患者异常提醒
+          <image src="../../static/info.png" />
+        </view>
+        <view class='del'>
+          停止并删除
+        </view>
+      </view>
+    </view>
+
+
+  </swiper-item>
+
+</swiper>
+<!--编辑遮罩层-->
+<view class="hide{{showbj? '':'show'}}">
+  <view class='shade1'>
+    <!-- 内容-->
+    <view class='conts'>
+      <view class='details'>
+        <view class='det-title'>
+          提醒详情
+        </view>
+        <view class='det-item'>
+          <text class='det-l'>对象</text>
+          <text class='det-r'>徐达</text>
+        </view>
+        <view class='det-item'>
+          <text class='det-l'>类型</text>
+          <text class='det-r'>心率异常提醒</text>
+        </view>
+        <view class='det-item'>
+          <text class='det-l'>规则</text>
+          <text class='det-r'> 测量心率不处于60-123之间时发送</text>
+        </view>
+        <view class='remind-content'>
+          <view class='remide-title'>
+            提醒内容
+          </view>
+          <view class='remide-txt'>
+            请注意您的心率健康，提醒内容提醒内容，请及时就医
+          </view>
+        </view>
+        <!-- 按钮-->
+        <view class='btn' bindtap='offshade'>
+          关闭
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

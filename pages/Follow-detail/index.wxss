@@ -1,0 +1,83 @@
+/* pages/Follow-detail/index.wxss */
+.main {
+    padding: 0 24rpx;
+}
+
+.main-title {
+    border-bottom: 1rpx solid #D0D0D0;
+}
+
+.title-top {
+    padding-top: 38rpx;
+    padding-bottom: 42rpx;
+    font-size: 34rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+}
+
+.title-bottom {
+    display: flex;
+    font-size: 24rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(153, 155, 161, 1);
+}
+
+.title-bottom_l {
+    margin-right: 56rpx;
+    padding-bottom: 28rpx;
+}
+
+
+/* 患者信息 */
+.information {
+    border-bottom: 1rpx solid #D0D0D0;
+    margin-bottom: 41rpx;
+}
+
+.information_c {
+    font-size: 32rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(153, 155, 161, 1);
+    margin-top: 34rpx;
+    display: flex;
+}
+
+.information :nth-child(n+8) {
+    margin-bottom: 34rpx;
+}
+
+.text-l {
+    flex: 1
+}
+
+.text-r {
+    flex: 4;
+    color: black
+}
+
+/* 近期症状 */
+
+.symptom_title,
+.psychology_title {
+    padding-left: 15rpx;
+    border-left: 8rpx solid #0295D2;
+    font-size: 32rpx;
+    font-family: SourceHanSansSC-Medium;
+    font-weight: 500;
+    color: rgba(2, 149, 210, 1);
+    margin-bottom: 26rpx;
+}
+
+.symptom_content,
+.psychology_content {
+    font-size: 32rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(30, 34, 38, 1);
+}
+.symptom_content {
+    margin-bottom: 69rpx;
+}
+

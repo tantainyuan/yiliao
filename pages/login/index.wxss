@@ -1,0 +1,45 @@
+/* pages/login/index.wxss */
+
+.logo {
+  height:346rpx;
+  display: flex;
+  justify-content: center;
+}
+.logo image {
+  margin-top: 173rpx;
+  width:500rpx;
+  height:84rpx;
+}
+.section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 48rpx;
+
+}
+.hoder{
+  padding-left: 23rpx;
+  font-size:32rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:rgba(153,155,161,1);
+  line-height:70rpx;
+  width:654rpx;
+  height:80rpx;
+}
+.username text,
+.password text{
+    font-size:30rpx;
+    font-weight:500;
+    color:rgba(25,29,33,1);
+    line-height:70rpx;
+}
+/* 登陆按钮 */
+.submit {
+  width:654rpx;
+  height:98rpx;
+  background:rgba(4,194,219,1);
+  border-radius:10rpx;
+  margin-top:96rpx; 
+  color: white;
+}

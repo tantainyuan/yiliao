@@ -1,0 +1,67 @@
+<!--pages/Configuration-exception/index.wxml-->
+
+
+<!--内容主体-->
+<view class='main'>
+  <view class='rule-name'>
+    <text class='tag'>规则名称</text>
+    <input type='text' class='txt' value='' placeholder="请填写包装上的24位手环码" placeholder-class="placehoder"></input>
+  </view>
+  <view class='trigger-type'>
+    选择异常触发类型
+  </view>
+  <view class='rule-name'>
+    <text class='tag'>触发类型</text>
+    <picker class="type-item" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+
+      {{array[index]}}
+
+    </picker>
+  </view>
+  <view class='trigger-type'>
+    心率配置规则
+  </view>
+  <view class='custom'>
+    <view class="custom-title">
+      <text>自定义安全范围</text>
+      <switch checked bindchange="switch1Change" color="#0295d2" />
+    </view>
+    <view class="custom-content {{state||state1?'':'hide'}}">
+      <view class="zy-slider-title {{index =='2'? '':'hide'}}">收缩压范围</view>
+      <view class='box'>
+        <text>{{blood.low}}</text>
+        <view class="zy-slider">
+          <zy-slider id="zy-slider1" minValue="{{blood.low}}" maxValue="{{blood.heigh}}" min="12" max="125" blockColor="#0099FF" backgroundColor="#B0C4DE" selectedColor="#00BEE0" bind:lowValueChange="lowValueChangeAction" bind:heighValueChange="heighValueChangeAction"
+          />
+        </view>
+        <text>{{blood.heigh}}</text>
+      </view>
+    </view>
+    <view class="custom-content {{state2?'':'hide'}}" id="custom-content" hidden="{{index!=2}}">
+      <view class="zy-slider-title ">舒张压范围</view>
+      <view class='box'>
+        <text>{{blood1.low}}</text>
+        <view class="zy-slider">
+          <zy-slider id="zy-slider" minValue="{{blood1.low}}" maxValue="{{blood1.heigh}}" min="12" max="125" blockColor="#0099FF" backgroundColor="#B0C4DE" selectedColor="#00BEE0" bind:lowValueChange="lowValueChangeAction1" bind:heighValueChange="heighValueChangeAction1"
+          />
+        </view>
+        <text>{{blood1.heigh}}</text>
+      </view>
+    </view>
+    <!-- 关闭显示 -->
+    <view class="default {{state?'hide':''}}">
+      默认手腕温度安全范围为26℃-39℃
+    </view>
+  </view>
+
+  <view class='trigger-type'>
+    填写提醒内容
+  </view>
+  <view class='content'>
+    <input type="text" placeholder="发送提醒内容" placeholder-class="df"></input>
+  </view>
+
+  <view class="btn">
+    <button>配置完成 选择目标</button>
+  </view>
+</view>

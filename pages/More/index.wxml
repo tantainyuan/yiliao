@@ -1,0 +1,27 @@
+<!-- pages/More/index.wxml -->
+<!-- 医生 -->
+<view class="main">
+    <view class="doctor">
+        <view class="portrait">
+            <image src="../../static/add.png" />
+        </view>
+        <view class="name">何医生</view>
+        <view class="add">佛山市第六人民医院</view>
+        <view class="label">医生</view>
+    </view>
+    <!-- 修改密码 -->
+    <navigator url="../Change-password/index">
+        <view class="modify-psw">
+            <view class="psw-name">修改密码</view>
+            <view class="img">
+                <image src="../../static/arrow.png" />
+            </view>
+        </view>
+    </navigator>
+    <view class="out-login">
+        <view class="login-name">退出登录</view>
+        <view class="img">
+            <image src="../../static/arrow.png" />
+        </view>
+    </view>
+</view>

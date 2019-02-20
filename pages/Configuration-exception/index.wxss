@@ -1,0 +1,144 @@
+/* pages/Configuration-exception/index.wxss */
+.main {
+    background-color: #f0f3f5;
+
+    padding-bottom: 100rpx;
+}
+
+.rule-name {
+    height: 88rpx;
+    background: rgba(255, 255, 255, 1);
+    border-bottom: 1rpx solid #D0D0D0;
+    border-top: 1rpx solid #D0D0D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag {
+    flex: 1;
+    padding-left: 32rpx;
+    font-size: 34rpx;
+    font-weight: 500;
+    color: rgba(25, 29, 33, 1);
+}
+
+.txt,
+.type-item {
+    flex: 3
+}
+
+.placehoder {
+    font-size: 34rpx;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+}
+
+/* 触发类型 */
+.trigger-type {
+    padding: 24rpx 32rpx;
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+}
+
+.custom {
+    background-color: #fff;
+}
+
+.custom-title {
+    height: 87rpx;
+    line-height: 87rpx;
+    padding: 0rpx 24rpx;
+    background-color: #fff;
+    font-size: 34rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(25, 29, 33, 1);
+    border-bottom: 1rpx solid #D0D0D0;
+}
+
+.custom-title switch {
+    float: right;
+}
+
+/* 自定义 */
+.zy-slider-title {
+    padding: 20rpx 34rpx;
+    font-size: 30rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(153, 155, 161, 1);
+}
+.bigbox {
+    position: relative;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30rpx;
+    padding: 56rpx 34rpx;
+    border-bottom: 1rpx solid #D0D0D0;
+}
+
+.zy-slider {
+    width: 578rpx;
+    height: 58rpx;
+}
+
+.box text {
+    font-size: 30rpx;
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    color: rgba(153, 155, 161, 1);
+}
+
+.hide {
+    display: none;
+}
+
+/* 发送内容 */
+.content input {
+
+    width: 750rpx;
+    height: 151rpx;
+    background: rgba(255, 255, 255, 1);
+    border-top: 1rpx solid #D0D0D0;
+    border-bottom: 1rpx solid #D0D0D0;
+}
+
+.df {
+    padding-left: 31rpx
+}
+
+/* 按钮 */
+
+.btn {
+    height: 100rpx;
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    bottom: 0;
+    padding-left: 25rpx;
+    z-index: 999;
+}
+
+
+.btn button {
+    width: 695rpx;
+    height: 80rpx;
+    background: rgba(0, 195, 209, 1);
+    border-radius: 6rpx;
+    margin-top: 10rpx;
+    color: #fff;
+}
+
+/* 关闭显示 */
+.default {
+    padding: 26rpx 33rpx;
+    font-size: 30rpx;
+    font-family: SourceHanSansSC-Regular;
+    font-weight: 400;
+    color: rgba(153, 155, 161, 1);
+    border-bottom: 1rpx solid #D0D0D0
+}

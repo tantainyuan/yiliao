@@ -1,0 +1,122 @@
+<!--pages/New-follow/index.wxml-->
+<view class='search'>
+  <view class='search_input'>
+    <image src='../../static/search.png'></image>
+    <input placeholder="搜索患者关键词" placeholder-class='input_o'></input>
+  </view>
+</view>
+<!-- 内容 -->
+<view class='main'>
+  <!-- 筛选栏 -->
+  <view class='scree'>
+    <view class='scree_l' bindtap="change">
+      <text>全部{{type}}</text>
+      <image src='../../static/spread.png'></image>
+    </view>
+    <view class='scree_c'>
+      <text>全部症状</text>
+      <image src='../../static/spread.png'></image>
+    </view>
+    <view class='scree_r'>
+      <text>全部症状</text>
+      <image src='../../static/spread.png'></image>
+    </view>
+  </view>
+  <!-- 病人信息 -->
+  <navigator url="" redirect hover-class="className">
+    <view class='information' bindlongtap="longTap">
+      <view class='information_t'>
+        <view class='name'>张之洞</view>
+        <view class='alarm'>
+          <image src='../../static/alarm.png'></image>心率异常</view>
+      </view>
+      <view class='information_c'>
+        <view class="centent1">
+          天河东路胡广社区
+        </view>
+        <view class='centent2'>
+          男性
+        </view>
+        <view class='centent3'>
+          76岁
+        </view>
+        <view class='img'>
+          <image src="../../static/arrow.png" />
+        </view>
+
+
+      </view>
+      <view class='information_b'>
+        <view class='information_b_1'>
+          高血压
+        </view>
+        <view class='information_b_2'>
+          2型糖尿病
+        </view>
+        <view class='information_b_3'>
+          1型糖尿病
+        </view>
+      </view>
+    </view>
+  </navigator>
+  <view class='information'>
+    <view class='information_t'>
+      <view class='name'>张之洞</view>
+      <view class='alarm'>
+        <image src='../../static/alarm.png'></image>心率异常</view>
+    </view>
+    <view class='information_c'>
+      <view class="centent1">
+        天河东路胡广社区
+      </view>
+      <view class='centent2'>
+        男性
+      </view>
+      <view class='centent3'>
+        76岁
+      </view>
+      <view class='img'>
+        <image src="../../static/arrow.png" />
+      </view>
+
+
+    </view>
+    <view class='information_b'>
+      <view class='information_b_1'>
+        高血压
+      </view>
+      <view class='information_b_2'>
+        2型糖尿病
+      </view>
+      <view class='information_b_3'>
+        1型糖尿病
+      </view>
+    </view>
+  </view>
+
+
+  <!-- 遮罩层-->
+
+  <view class="hide{{showView?'':'show'}}">
+    <!--遮罩层  -->
+    <view class="shade">
+      <!--面板内容  -->
+      <view class="conts">
+        <view class='classify'>
+          <view class='classify_content'>
+            全部
+          </view>
+          <view class='classify_content'>
+            糖尿病
+          </view>
+          <view class='classify_content'>
+            甲状腺肿大
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+
+</view>

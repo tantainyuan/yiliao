@@ -1,0 +1,98 @@
+<!--pages/Target-selection/index.wxml-->
+<!--搜索-->
+<view class='search'>
+  <view class='search_input'>
+    <image src='../../static/search.png'></image>
+    <input placeholder="搜索患者关键词" placeholder-class='input_o'></input>
+  </view>
+</view>
+<view class="main">
+  <view class='scree'>
+    <view class='scree_l' bindtap="change">
+      <text>全部{{type}}</text>
+      <image src='../../static/spread.png'></image>
+    </view>
+    <view class='scree_c'>
+      <text>全部症状</text>
+      <image src='../../static/spread.png'></image>
+    </view>
+    <view class='scree_r'>
+      <text>全部症状</text>
+      <image src='../../static/spread.png'></image>
+    </view>
+  </view>
+  <!-- 病人信息-->
+  <view class='information'>
+    <view class='formation-l'>
+      <checkbox value="" checked="true" />
+    </view>
+    <view class='formation-r'>
+      <view class='information_t'>
+        <view class='name'>张之洞</view>
+      </view>
+      <view class='information_c'>
+        <view class="centent1">
+          天河东路胡广社区
+        </view>
+        <view class='centent2'>
+          男性
+        </view>
+        <view class='centent3'>
+          76岁
+        </view>
+
+
+
+      </view>
+      <view class='information_b'>
+        <view class='information_b_1'>
+          高血压
+        </view>
+        <view class='information_b_2'>
+          2型糖尿病
+        </view>
+        <view class='information_b_3'>
+          1型糖尿病
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部应用开始-->
+  <view class='bottom'>
+    <view class='bottom-l'>
+      <checkbox value="" /> 全选
+    </view>
+    <view class='bottom-c'>
+      已选中
+      <text>34</text>人
+    </view>
+    <view class='bottom-r'>
+      立即应用
+    </view>
+  </view>
+  <!-- 底部应用结束-->
+  <!--遮罩层-->
+
+  <view class="hide{{showView?'':'show'}}">
+    <!--遮罩层  -->
+    <view class="shade">
+      <!--面板内容  -->
+      <view class="conts">
+        <view class='classify'>
+          <view class='classify_content'>
+            全部
+          </view>
+          <view class='classify_content'>
+            糖尿病
+          </view>
+          <view class='classify_content'>
+            甲状腺肿大
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+</view>

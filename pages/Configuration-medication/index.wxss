@@ -1,0 +1,119 @@
+/* pages/Configuration-medication/index.wxss */
+.main {
+    height: 100%;
+    background-color: #f0f3f5;
+}
+
+
+.rule-name {
+    height: 88rpx;
+    background: rgba(255, 255, 255, 1);
+    border-bottom: 1rpx solid #D0D0D0;
+    border-top: 1rpx solid #D0D0D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trigger-type {
+    padding: 24rpx 32rpx;
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+}
+
+.tag {
+    flex: 1;
+    padding-left: 32rpx;
+    font-size: 34rpx;
+    font-weight: 500;
+    color: rgba(25, 29, 33, 1);
+}
+
+.txt,
+.type-item {
+    flex: 3
+}
+
+.placehoder {
+    font-size: 34rpx;
+    font-weight: 500;
+    color: rgba(153, 155, 161, 1);
+}
+
+/* 时间选择 */
+
+.time {
+    padding: 0 30rpx;
+    background-color: #fff;
+    font-size: 34rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(25, 29, 33, 1);
+    border-top: 1rpx solid #D0D0D0;
+    border-bottom: 1rpx solid #D0D0D0;
+
+}
+
+.type-item {
+    display: flex;
+    align-items: center;
+    padding: 28rpx 0;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.type-item text {
+    flex: 15
+}
+
+.type-item image {
+    flex: 1;
+    width: 16rpx;
+    height: 25rpx;
+}
+
+/* 默认发送时间 */
+.default-time {
+    display: flex;
+    padding: 28rpx 0;
+    font-size: 34rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(25, 29, 33, 1);
+
+}
+
+.default-time text:nth-child(1) {
+    flex: 1
+}
+
+.default-time text:nth-child(2) {
+    flex: 3
+}
+
+.text {
+    background-color: #fff;
+}
+.text textarea{}
+/* 按钮 */
+
+.btn {
+    height: 100rpx;
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    bottom: 0;
+    padding-left: 25rpx;
+    z-index: 999;
+}
+
+
+.btn button {
+    width: 695rpx;
+    height: 80rpx;
+    background: rgba(0, 195, 209, 1);
+    border-radius: 6rpx;
+    margin-top: 10rpx;
+    color: #fff;
+}
+

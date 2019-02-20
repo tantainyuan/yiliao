@@ -1,0 +1,79 @@
+<!-- pages/Fill-follow/index.wxml -->
+<view class='main'>
+    <view class="information">
+        <view class="information-l">
+            <view class="name">张之洞</view>
+            <view class="forma">
+                <view class="forma-item">天河东路胡广社区</view>
+                <view class="forma-item">男性</view>
+                <view class="forma-item">76岁</view>
+            </view>
+            <view class="phone">联系方式: 17425866590</view>
+        </view>
+        <view class="information-r">详细信息></view>
+    </view>
+    <!-- 标题 -->
+    <view class="main-title">
+        <text>症状</text>
+    </view>
+    <!-- 选择病症 -->
+    <view class="Choice">
+        <view class="Choice-item">选择症状</view>
+        <view class="Choice-item">点击选择症状(picker)</view>
+    </view>
+    <view class="txt">
+        <textarea name="" id="" placeholder="其他请输入症状描述"></textarea>
+    </view>
+    <view class="main-title">
+        <text>体征</text>
+    </view>
+    <view class="sign">
+        <view class="sign-item">
+            <view class="weith">体重</view>
+            <input type="text" placeholder="请输入症状描述"></input>
+            <text class="company">kg</text>
+        </view>
+        <view class="sign-item">
+            <view class="systolic">收缩压</view>
+            <input type="text" placeholder="请输入症状描述"></input>
+            <text class="company1">mmHg</text>
+        </view>
+        <view class="sign-item">
+            <view class="sign-item-l">
+                <view class="motion">运动</view>
+                <input type="text"></input>
+                <text class="company3">次/周</text>
+            </view>
+            <view class="sign-item-r">
+                <input type="text"></input>
+                <text class="company4">分钟/次</text>
+            </view>
+        </view>
+    </view>
+    <!-- 药品名称 -->
+    <view class="drugs">
+        <text>药品名称1</text>
+        <input type="text"></input>
+    </view>
+    <!-- 用法用量 -->
+    <view class="ues">
+        <view class="ues-l">
+            <view class="yf">用法用量1</view>
+            <input type="text"></input>
+            <text>次/日</text>
+        </view>
+        <view class="ues-r">
+            <text>每次</text>
+            <input type="text"></input>
+        </view>
+    </view>
+    <!-- 新增用药 -->
+    <view class="add-use">
+        <image src="../../static/add2.png" />
+        <text>新增用药情况</text>
+    </view>
+    <!-- 按钮 -->
+    <view class="btn">
+        <button>保存随访表单</button>
+    </view>
+</view>

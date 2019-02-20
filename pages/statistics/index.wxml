@@ -1,0 +1,81 @@
+<!--pages/statistics/index.wxml-->
+<view class='main'>
+  <view class='data-shuju'>
+    <view class='bg'></view>
+    <view class='statistics'>
+      <view class='statistics_content'>
+        <view class='statistics_top'>
+          <!-- 头部左边 -->
+          <view class='top_l'>
+            <view class='img'>
+              <image src='../../static/statisc.png'></image>
+            </view>
+            <view class='txt'>数据统计</view>
+          </view>
+          <!-- 右边 -->
+          <view class='top_r'>
+            1月1日 11:10
+          </view>
+
+        </view>
+        <!-- 监控人数 -->
+        <view class='statistics_center'>
+          <view class='people_number'>监控人数</view>
+          <text class='num'>364</text>
+        </view>
+        <view class='statistics_bottom'>
+          <view class='statistics_bottom_l'>
+            <view class='data_title'>心率正常
+              <image src='../../static/arrow.png'></image>
+            </view>
+            <text class='data_num'>24</text>
+          </view>
+          <view class='statistics_bottom_c'>
+            <view class='data_title'>心率正常
+              <image src='../../static/arrow.png'></image>
+
+            </view>
+            <text class='data_num'>24</text>
+          </view>
+          <view class='statistics_bottom_r'>
+            <view class='data_title'>心率正常
+              <image src='../../static/arrow.png'></image>
+            </view>
+            <text class='data_num'>24</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 全部 -->
+  <view class='ball'>
+    <view class='all'>
+      <view class='all_l'>
+        <text>全部时间</text>
+        <image src='../../static/spread.png'></image>
+      </view>
+      <view class='all_r'>
+        <text>全部时间</text>
+        <image src='../../static/spread.png'></image>
+      </view>
+    </view>
+  </view>
+  <!-- 异常警报类型比 -->
+  <view class='abnormal'>
+    <view class='abnormal_title'>
+      <text>异常警报类型占比</text>
+    </view>
+    <view class='ech'>
+      <ec-canvas id="chart-membertwo" canvas-id="canvas-membertwo" ec="{{ memberone }}"></ec-canvas>
+    </view>
+  </view>
+  <!-- 异常警报随时间分布 -->
+  <view class='distribution'>
+    <view class='distribution_title'>
+      <text>异常警报随时间分布</text>
+    </view>
+    <view class='ech2'>
+      <ec-canvas id="chart-membertwo" canvas-id="canvas-membertwo" ec="{{ membertwo }}"></ec-canvas>
+    </view>
+  </view>
+</view>

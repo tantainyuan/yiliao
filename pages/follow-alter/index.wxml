@@ -1,0 +1,21 @@
+<!--pages/follow-alter/index.wxml-->
+<view class='main'>
+  <view class='rule-name'>
+    <text class='tag'>规则名称</text>
+    <input type='text' class='txt' value='' placeholder="请输入这条规则的名称" placeholder-class="placehoder"></input>
+  </view>
+
+  <!--文本输入框-->
+  <view class='trigger-type'>
+    填写提醒内容
+  </view>
+  <view class='text'>
+    <textarea name="" placeholder="发送提醒内容" placeholder-class="text-holder">
+
+    </textarea>
+  </view>
+  <!-- 按钮-->
+  <view class="btn">
+    <button>配置完成 选择目标</button>
+  </view>
+</view>

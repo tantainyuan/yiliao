@@ -1,0 +1,49 @@
+<!--pages/Follow-record/index.wxml-->
+<view class='main'>
+
+  <!-- 时间选择-->
+  <view class='time'>
+    <view class='time-item'>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          {{date}}
+        </view>
+      </picker>
+    </view>
+    <view class='xian'>
+      <view>
+
+      </view>
+    </view>
+    <view class='time-item'>
+      <picker mode="date1" value="{{date1}}" start="2015-09-01" end="2019-09-01" bindchange="bindDateChange1">
+        <view class="picker">
+          {{date1}}
+        </view>
+      </picker>
+    </view>
+  </view>
+
+  <!--记录表-->
+  <view class='Record'>
+    <view class='Record_l'>
+      <view class='Record_l_top'>
+        高血压患者随访记录表
+      </view>
+      <view class='Record_l_bottom'>
+        <image src="../../static/time.png" />
+        <view class='time-data'>
+          2019/1/1 10:24
+        </view>
+        <view class="Doctor">
+          何医生
+        </view>
+      </view>
+    </view>
+    <view class='Record_r'>
+      <image src="../../static/arrow.png" />
+    </view>
+  </view>
+
+
+</view>

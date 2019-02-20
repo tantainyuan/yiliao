@@ -1,0 +1,35 @@
+<!-- pages/Patient-message/index.wxml -->
+<view class="main">
+    <!-- 患者信息开始 -->
+    <view class="message">
+        <view class="message-l">
+            <view class="name">患者名称</view>
+            <view class="abstract">摘要信息</view>
+        </view>
+        <view class="message-r">
+            <view class="time">12:21</view>
+            <view class="remind">8</view>
+        </view>
+    </view>
+    <!-- 患者信息结束 -->
+    <view class="message">
+        <view class="message-l">
+            <view class="name">患者名称</view>
+            <view class="abstract">摘要信息</view>
+        </view>
+        <view class="message-r">
+            <view class="time">12:21</view>
+            <view class="remind">8</view>
+        </view>
+    </view>
+    <view class="message">
+        <view class="message-l">
+            <view class="name">患者名称</view>
+            <view class="abstract">摘要信息</view>
+        </view>
+        <view class="message-r">
+            <view class="time">12:21</view>
+            <view class="remind">8</view>
+        </view>
+    </view>
+</view>
